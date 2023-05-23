@@ -101,7 +101,7 @@ space.plot <- ggplot(data = plot.data.df, aes(x = x, y = y, fill = w)) +
           strip.text.x = element_text(color = 'black'), 
           strip.text.y = element_text(color = 'black')) 
 space.plot
-ggsave(device = 'png', file = 'figures/Figure-1A.png', height = 6, width = 8, 
+ggsave(device = 'png', file = 'figures/Figure-1B.png', height = 6, width = 8, 
        units = 'in')
 
 # Plot of temporal autocorrelation ----------------------------------------
@@ -127,6 +127,6 @@ time.plot <- ggplot(data = plot.time.df, aes(x = time, y = eta)) +
           strip.text.x = element_text(color = 'black'), 
           strip.text.y = element_text(color = 'black'))
 time.plot
-ggsave(device = 'png', file = 'figures/Figure-1B.png', height = 6, width = 8, 
+ggsave(device = 'png', file = 'figures/Figure-1A.png', height = 6, width = 8, 
        units = 'in')
 
