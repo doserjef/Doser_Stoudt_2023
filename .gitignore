@@ -1,2 +1,5 @@
 results/sim-*.rda
 documents/
+data/prism
+code/archived/
+archived/
