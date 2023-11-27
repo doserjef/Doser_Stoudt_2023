@@ -1,6 +1,7 @@
 # summary.R: this script summarizes results from the different simulation
 #            scenarios for both the main text and supplemental information.
 # Authors: Jeffrey W. Doser
+# Approximate run time: < 10 min
 rm(list = ls())
 library(spOccupancy)
 library(tidyverse)
@@ -458,26 +459,26 @@ plot.df$time <- factor(plot.df$time, levels = c('A', 'B', 'C', 'D'),
 # Figure 3 requires a large object (>400MB) to create, which cannot be stored on 
 # Github. 
 # Figure 3 of associated manuscript. 
-# plot.df %>%
-# ggplot() +
-#   theme_light(base_size = 16) +
-#   facet_grid(time ~ spatial, 
-# 	     labeller = label_parsed) +
-#   geom_smooth(aes(x = val, y = est, group = sim), col = 'grey', alpha = 0.1, se = FALSE, 
-# 	      lineend = 'round', lwd = 0.25) +
-#   geom_abline(slope = 1, intercept = 0, col = 'black', lty = 2) +
-#   geom_smooth(data = avg.df, aes(x = val.avg, y = est.avg), se = FALSE, col = 'black', lineend = 'round', 
-# 	      lwd = 0.5) + 
-#   labs(x = 'True Occupancy Probability', y = 'Estimated Occupancy Probability') + 
-#   theme(legend.position = 'bottom', 
-#         strip.text.y = element_text(color = 'black'),
-#         strip.text.x = element_text(color = 'black'), 
-#         text = element_text(family="LM Roman 10"),
-#         panel.grid.major = element_blank(),
-#         panel.grid.minor = element_blank(),
-#         axis.text.x = element_text(angle = 45, hjust = 1, size = 10), 
-#         axis.text.y = element_text(size = 10))
-# ggsave(file = 'figures/Figure-3.png', device = 'png', width = 8.5, height = 7, 
+# fig.3.plot <- plot.df %>%
+#   ggplot() +
+#     theme_light(base_size = 16) +
+#     facet_grid(time ~ spatial, 
+#   	     labeller = label_parsed) +
+#     geom_smooth(aes(x = val, y = est, group = sim), col = 'grey', alpha = 0.1, se = FALSE, 
+#   	      lineend = 'round', lwd = 0.25) +
+#     geom_abline(slope = 1, intercept = 0, col = 'black', lty = 2) +
+#     geom_smooth(data = avg.df, aes(x = val.avg, y = est.avg), se = FALSE, col = 'black', lineend = 'round', 
+#   	      lwd = 0.5) + 
+#     labs(x = 'True Occupancy Probability', y = 'Estimated Occupancy Probability') + 
+#     theme(legend.position = 'bottom', 
+#           strip.text.y = element_text(color = 'black'),
+#           strip.text.x = element_text(color = 'black'), 
+#           text = element_text(family="LM Roman 10"),
+#           panel.grid.major = element_blank(),
+#           panel.grid.minor = element_blank(),
+#           axis.text.x = element_text(angle = 45, hjust = 1, size = 10), 
+#           axis.text.y = element_text(size = 10))
+# ggsave(plot = fig.3.plot, file = 'figures/Figure-3.png', device = 'png', width = 8.5, height = 7, 
 #        units = 'in')
 
 # Calculate coverage ------------------
@@ -745,7 +746,7 @@ bias.plot <- ggplot(data = avg.df.full, aes(x = type, y = diff.avg, col = type))
   geom_segment(aes(x = type, y = diff.quant.low, xend = type, yend = diff.quant.high), 
 	       lineend = 'butt', linewidth = 0.7) +
   geom_point(size = 3) +
-  scale_y_continuous(limits = c(0, 0.5)) +
+  scale_y_continuous(limits = c(0, 0.66)) +
   labs(x = 'Link Function', y = 'Absolute Bias', 
        col = '') + 
   theme(legend.position = 'bottom', 
@@ -1086,7 +1087,7 @@ avg.df.full$time <- factor(avg.df.full$time, levels = c('A', 'B', 'C', 'D'),
 # Generate Supplemental Figure S6
 bias.plot <- ggplot(data = avg.df.full, aes(x = type, y = diff.avg, col = type)) +
   scale_color_colorblind() +
-  theme_light(base_size = 14) +
+  theme_light(base_size = 12) +
   facet_grid(time ~ spatial, 
 	     labeller = label_parsed) +
   geom_segment(aes(x = type, y = diff.quant.low, xend = type, yend = diff.quant.high), 
@@ -1441,7 +1442,7 @@ avg.df.full$time <- factor(avg.df.full$time, levels = c('A', 'B', 'C', 'D'),
 # Supplemental Figure S7
 bias.plot <- ggplot(data = avg.df.full, aes(x = type, y = diff.avg, col = type)) +
   scale_color_colorblind() +
-  theme_light(base_size = 14) +
+  theme_light(base_size = 12) +
   facet_grid(time ~ spatial, 
 	     labeller = label_parsed) +
   geom_segment(aes(x = type, y = diff.quant.low, xend = type, yend = diff.quant.high), 
@@ -1795,7 +1796,7 @@ avg.df.full$time <- factor(avg.df.full$time, levels = c('A', 'B', 'C', 'D'),
 # Supplemental Figure S6
 bias.plot <- ggplot(data = avg.df.full, aes(x = type, y = diff.avg, col = type)) +
   scale_color_colorblind() +
-  theme_light(base_size = 14) +
+  theme_light(base_size = 12) +
   facet_grid(time ~ spatial, 
 	     labeller = label_parsed) +
   geom_segment(aes(x = type, y = diff.quant.low, xend = type, yend = diff.quant.high), 

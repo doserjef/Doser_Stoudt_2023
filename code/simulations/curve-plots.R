@@ -2,6 +2,7 @@
 #                shows the functional forms of the different link functions
 #                used in the mis-specification scenarios
 # Authors: Jeffrey W. Doser
+# Approximate run time: <1 min
 rm(list = ls())
 library(tidyverse)
 library(ggthemes)

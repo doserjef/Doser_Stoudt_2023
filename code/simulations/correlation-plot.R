@@ -3,6 +3,7 @@
 #                     parameter values used in the simulation study 
 #                     effect the underlying random effects.
 # Authors: Jeffrey W. Doser
+# Approximate run time: <5 min
 rm(list = ls())
 library(tidyverse)
 library(spOccupancy)

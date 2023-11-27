@@ -3,6 +3,7 @@
 #                           levels of spatial and temporal autocorrelation. This script
 #                           generates data that are "misspecified" with a scale parameter
 #                           of 0.8.
+# Approximate run time: 9.3 days
 # Authors: Jeffrey W. Doser and Sara Stoudt
 
 rm(list = ls())

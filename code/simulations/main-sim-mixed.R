@@ -2,7 +2,7 @@
 #                   of a "mixed design" multi-season occupancy model under varying
 #                   levels of spatial and temporal autocorrelation. 
 # Authors: Jeffrey W. Doser and Sara Stoudt
-
+# Approximate run time: 10 days
 rm(list = ls())
 library(spOccupancy)
 

@@ -4,7 +4,7 @@
 #                          simulates data under a probit link function as a form of 
 #                          model misspecification.
 # Authors: Jeffrey W. Doser and Sara Stoudt
-
+# Approximate run time: 10 days
 rm(list = ls())
 library(spOccupancy)
 

@@ -5,6 +5,7 @@
 #                            generates data that are "misspecified" with a linear 
 #                            relationship between occupancy/detection probability and the 
 #                            covariates/spatial random effects.
+# Approximate run time: 7.5 days
 # Authors: Jeffrey W. Doser and Sara Stoudt
 
 rm(list = ls())

@@ -4,6 +4,7 @@
 #                data that are identical to how the data are modeled (i.e., 
 #                correct specification). 
 # Authors: Jeffrey W. Doser and Sara Stoudt
+# Approximate run time: 12 days
 rm(list = ls())
 library(spOccupancy)
 

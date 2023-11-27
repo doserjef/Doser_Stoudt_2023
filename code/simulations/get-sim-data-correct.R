@@ -1,6 +1,7 @@
 # get-sim-data-correct.R: script to generate the simulated data sets for the 
 #                         first simulation study.
 # Author: Jeffrey W. Doser and Sara Stoudt
+# Approximate run time: <5 min
 rm(list = ls())
 library(spOccupancy)
 

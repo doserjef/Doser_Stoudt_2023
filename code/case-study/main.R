@@ -2,6 +2,7 @@
 #         replication to compare estimates of occupancy probability of the 
 #         Ovenbird in Hubbard Brook Experimental Forest. 
 # Author: Jeffrey W. Doser
+# Approximate run time: 1 hour
 rm(list = ls())
 library(spOccupancy)
 # Set seed to get the same sub-sampled data set

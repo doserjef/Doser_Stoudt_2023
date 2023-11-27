@@ -1,6 +1,7 @@
 # main-sim-sv.R: script to run a set of simulations to assess identifiability
 #                of a single-visit multi-season occupancy model under varying
 #                levels of spatial and temporal autocorrelation. 
+# Approximate run time: 9.3 days
 # Authors: Jeffrey W. Doser and Sara Stoudt
 
 rm(list = ls())

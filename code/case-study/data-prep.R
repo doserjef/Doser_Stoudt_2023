@@ -1,6 +1,7 @@
 # data-prep.R: this script prepares the Hubbard Brook data for analysis 
 #              and extracts precipitation and temperature data from PRISM
 # Author: Jeffrey W. Doser
+# Approximate run time: <5 min
 rm(list = ls())
 library(tidyverse)
 library(spOccupancy)

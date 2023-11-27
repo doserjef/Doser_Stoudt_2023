@@ -4,6 +4,7 @@
 #                        generates data that are "misspecified" with a linear relationship
 #                        between occupancy/detection probability and the covariates.
 # Authors: Jeffrey W. Doser and Sara Stoudt
+# Approximate run time: 10 days
 rm(list = ls())
 library(spOccupancy)
 

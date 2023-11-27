@@ -3,7 +3,7 @@
 #                                    levels of spatial and temporal autocorrelation. This generates
 #                                    data that are misspecified with a scale parameter of 0.8. 
 # Authors: Jeffrey W. Doser and Sara Stoudt
-
+# Approximate run time: 18 days
 rm(list = ls())
 library(spOccupancy)
 

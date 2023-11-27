@@ -2,6 +2,7 @@
 #            generates the results shown in Figure 6 of the manuscript and
 #            Table S1 in the supplemental material.
 # Author: Jeffrey W. Doser
+# Approximate run time: <1 min
 rm(list = ls())
 library(coda)
 library(tidyverse)

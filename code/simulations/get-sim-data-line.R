@@ -1,6 +1,7 @@
 # get-sim-data-line.R: script to generate the simulated data sets with 
 #                      linear misspecification for Simulation Study 2.
 # Author: Jeffrey W. Doser and Sara Stoudt
+# Approximate run time: <5 min
 library(spOccupancy)
 i
 # Generate the data -------------------------------------------------------

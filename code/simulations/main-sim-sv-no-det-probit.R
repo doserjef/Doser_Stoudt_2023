@@ -4,6 +4,7 @@
 #                              levels of spatial and temporal autocorrelation. This script
 #                              simulates data under a probit link function as a form of 
 #                              model misspecification.
+# Approximate run time: 7.5 days
 # Authors: Jeffrey W. Doser and Sara Stoudt
 
 rm(list = ls())

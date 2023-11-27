@@ -4,7 +4,7 @@
 #                          simulates data that are "misspecified" using a scale parameter
 #                          of 0.5. 
 # Authors: Jeffrey W. Doser and Sara Stoudt
-
+# Approximate run time: 10 days
 rm(list = ls())
 library(spOccupancy)
 

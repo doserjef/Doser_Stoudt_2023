@@ -4,7 +4,7 @@
 #                              data that are misspecified using a linar relationship forced to 
 #                              be between 0 and 1. 
 # Authors: Jeffrey W. Doser and Sara Stoudt
-
+# Approximate run time: 18 days 
 rm(list = ls())
 library(spOccupancy)
 

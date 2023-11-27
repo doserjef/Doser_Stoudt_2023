@@ -3,7 +3,7 @@
 #                         levels of spatial and temporal autocorrelation. This generates
 #                         data that are identical to how the data are modeled. 
 # Authors: Jeffrey W. Doser and Sara Stoudt
-
+# Approximate run time: 18 days
 rm(list = ls())
 library(spOccupancy)
 

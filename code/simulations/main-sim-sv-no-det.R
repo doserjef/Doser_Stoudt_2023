@@ -1,6 +1,7 @@
 # main-sim-sv-no-det.R: script to run a set of simulations to assess the 
 #                       ability of a logistic regression model that ignores
 #                       imperfect detection to estimate occupancy probability.
+# Approximate run time: 7.5 days
 # Authors: Jeffrey W. Doser and Sara Stoudt
 
 rm(list = ls())

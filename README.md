@@ -24,8 +24,8 @@ All code and simulated data sets were created using `spOccupancy` v0.6.1. See th
 + `summary.R`: script to summarize the results of the case study.
 
 ### [code/simulations](./code/simulations)
-+ `main-sim-*`: scripts to run the simulations for different mis-specification and visit scenarios. The `*` represents a wildcard, which is replaced by the specific scenario for a given combination of amount of replication and mis-specification type. In the file names, `sv` corresponds to single-visit and `dv` corresponds to double visit. 
 + `get-sim-data-*`: scripts to generate the different data sets under the different mis-specification types.
++ `main-sim-*`: scripts to run the simulations for different mis-specification and visit scenarios. The `*` represents a wildcard, which is replaced by the specific scenario for a given combination of amount of replication and mis-specification type. In the file names, `sv` corresponds to single-visit and `dv` corresponds to double visit. 
 + `correlation-plot.R`: script to generate Figure 1 in the associated manuscript.
 + `curve-plots.R`: script to generate Figure 2 in the associated manuscript.
 + `summary.R`: script to generate all other figures in the manuscript and summarize the simulation results. 
