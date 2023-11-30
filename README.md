@@ -4,7 +4,7 @@
 
 ### Methods in Ecology and Evolution
 
-Code/Data DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10234982.svg)](https://doi.org/10.5281/zenodo.10234982)
+### Code/Data DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10234982.svg)](https://doi.org/10.5281/zenodo.10234982)
 
 ### Please contact Jeffrey W. Doser (doserjef@msu.edu) or Sara Stoudt (sas072@bucknell.edu) for questions about the code or data used in the manuscript
 
