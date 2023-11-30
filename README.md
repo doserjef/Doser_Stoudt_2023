@@ -1,8 +1,10 @@
 # "Fractional replication" in single-visit multi-season occupancy models: Impacts of spatio-temporal autocorrelation on identifiability
 
+### Jeffrey W. Doser and Sara Stoudt (co-first authors)
+
 ### Methods in Ecology and Evolution
 
-### Jeffrey W. Doser and Sara Stoudt (co-first authors)
+Code/Data DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10234982.svg)](https://doi.org/10.5281/zenodo.10234982)
 
 ### Please contact Jeffrey W. Doser (doserjef@msu.edu) or Sara Stoudt (sas072@bucknell.edu) for questions about the code or data used in the manuscript
 
