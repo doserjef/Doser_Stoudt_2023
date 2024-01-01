@@ -1,4 +1,4 @@
-# "Fractional replication" in single-visit multi-season occupancy models: Impacts of spatio-temporal autocorrelation on identifiability
+# ["Fractional replication" in single-visit multi-season occupancy models: Impacts of spatio-temporal autocorrelation on identifiability](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14275#)
 
 ### Jeffrey W. Doser and Sara Stoudt (co-first authors)
 
